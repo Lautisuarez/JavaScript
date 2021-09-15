@@ -1,0 +1,36 @@
+/* 
+    Creamos un pequeño efecto para hacer el ejercicio un poco más entretenido :) 
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #323330;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: #F0DB4F;
+    animation-name: titulo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: .5s;
+}
+
+@keyframes titulo {
+    from {
+        color: #F0DB4F;
+        transform: scale(1);
+    }
+    to {
+        color: #fafafa;
+        transform: scale(1.5);
+    }
+}
