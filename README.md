@@ -3,7 +3,7 @@ _Página web creada para realizar los ejercicios del curso de JavaScript en Code
 **Comision 22405**
 
 ## Sitio web 🌐
-<a href="https://lautisuarez.github.io/JavaScript/" TechApp</a>
+<a href="https://lautisuarez.github.io/JavaScript/">JavaScript</a>
 
 ## Como editarlo ✏️
 ```
